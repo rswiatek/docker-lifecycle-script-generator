@@ -71,7 +71,8 @@ case "$operation" in
     exit 1
     ;;
 esac
-""".strip()
+
+""".lstrip()
 
 OPERATIONS = [
     "start",
