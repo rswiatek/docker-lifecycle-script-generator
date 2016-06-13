@@ -52,6 +52,7 @@ case "$operation" in
     ;;
   restart)
     if [[ -z $current_container  ]]; then
+      echo echo $NO_CONTAINER
       start_container
     else
       stop_container
